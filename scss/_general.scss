@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+html, button{
+    font-family: 'Open Sans', sans-serif;
+    color: $text_color;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: $grey;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
