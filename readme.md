@@ -12,5 +12,5 @@ I used HTML, SCSS and pure JS.
 <br>
 <img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/click%20to%20copy.png?raw=true">
 <br>
-<img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/start.png?raw=true">
+<img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/copied.png">
 <br>
