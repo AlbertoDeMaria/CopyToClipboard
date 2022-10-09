@@ -1,24 +1,18 @@
-const msg = document.querySelector('#message');
-const icon = document.querySelector('#icon');
-const box = document.querySelector('#box');
+const msg = document.querySelectorAll('#message');
+const icon = document.querySelectorAll('#icon');
+const box = document.querySelectorAll('#box');
 
-box.addEventListener('click', ()=>{
-    msg.innerHTML = 'Copied to Clipboard';
-    icon.classList.remove('fa-regular', 'fa-clone');
-    icon.classList.add('fa-solid', 'fa-check');
-
-    CopyToClipboard();
-
-    setTimeout(
-        function() {
-            msg.innerHTML = 'Click to Copy';
-            icon.classList.remove('fa-solid', 'fa-check');
-            icon.classList.add('fa-regular', 'fa-clone');
-        }, 3000);
-});
-
-function CopyToClipboard(){
-
-    
-
-}
+box.forEach( (b, index) => {
+    b.addEventListener('click', () => {        
+        msg[index].innerHTML = 'Copied to clipboard';
+        icon[index].classList.remove('fa-regular','fa-clone');
+        icon[index].classList.add('fa-solid','fa-check');
+        
+        setTimeout(() => {
+            msg[index].innerHTML = 'Copy to clipboard';
+            icon[index].classList.add('fa-regular','fa-clone');
+            icon[index].classList.remove('fa-solid','fa-check');
+        }, 2500);
+        
+    })
+})
