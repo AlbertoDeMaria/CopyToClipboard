@@ -13,6 +13,6 @@ I used HTML, SCSS and pure JS.
 <img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/click%20to%20copy.png?raw=true">
 <br>
 <img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/copied.png">
-<br>
+
+### Clipboard
 <img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/res.png">
-<br>
