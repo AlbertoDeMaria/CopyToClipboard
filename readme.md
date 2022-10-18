@@ -14,3 +14,5 @@ I used HTML, SCSS and pure JS.
 <br>
 <img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/copied.png">
 <br>
+<img src="https://github.com/AlbertoDeMaria/CopyToClipboard/blob/master/dist/img/res.png">
+<br>
